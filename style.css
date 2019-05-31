@@ -1,13 +1,38 @@
+body {
+    /* background-color: rgb(255, 255, 0); */
+    /* lmao holy coew i picked exactly the yellow lolz */
+    background: lime;
+    background-image: radial-gradient(yellow 20%, transparent 0),
+        radial-gradient(yellow 20%, transparent 0);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+}
+
 main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     max-width: 800px;
     margin: auto;
+    background-color: salmon
 }
 
 form {
     display: flex;
     flex-direction: column;
     max-width: 400px;
+}
+
+h1 {
+    font-size: 60px;
+    color: royalblue;
+    -webkit-text-fill-color: royalblue; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 3px rebeccapurple;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 1px black;
 }
